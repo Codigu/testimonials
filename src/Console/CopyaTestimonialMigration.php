@@ -1,6 +1,6 @@
 <?php
 
-namespace CopyaPost\Console;
+namespace CopyaTestimonial\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;

@@ -1,6 +1,6 @@
 <?php
 
-namespace CopyaPost\Http\Controllers\API;
+namespace CopyaTestimonial\Http\Controllers\API;
 
 use Exception;
 use CopyaPost\Transformers\PostTransformer;
@@ -11,7 +11,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 
-class PostsController extends ApiBaseController
+class TestimonialsController extends ApiBaseController
 {
     public function __construct()
     {

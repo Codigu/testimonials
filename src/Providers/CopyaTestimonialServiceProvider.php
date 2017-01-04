@@ -4,7 +4,7 @@ namespace CopyaTestimonial\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
-use CopyaPost\Console\CopyaTestimonialMigration;
+use CopyaTestimonial\Console\CopyaTestimonialMigration;
 use Webwizo\Shortcodes\Facades\Shortcode;
 
 class CopyaTestimonialServiceProvider extends ServiceProvider
@@ -20,12 +20,12 @@ class CopyaTestimonialServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../../resources/assets/js' => base_path('resources/assets/js'),
-        ], 'copya-post');
+        ], 'testimonial-scripts');
 
         $this->publishes([
             __DIR__.'/../../resources/assets/views/posts' => base_path('resources/views/vendor/copya/front/posts'),
             __DIR__.'/../../resources/assets/views/widgets' => base_path('resources/views/vendor/copya/front/widgets'),
-        ], 'post-views');
+        ], 'testimonial-views');
 
         $this->defineRoutes();
     }
