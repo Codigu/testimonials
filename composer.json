@@ -1,0 +1,22 @@
+{
+    "name": "codigu/testimonials",
+    "description": "Copya Testimonials Laravel CMS built by CODIGU",
+    "keywords": ["laravel", "codigu", "cms", "testimonials"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arnel Basiliote",
+            "email": "arnel.basiliote@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*",
+        "codigu/copya" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CopyaTestimonials\\": "src/"
+        }
+    }
+}
